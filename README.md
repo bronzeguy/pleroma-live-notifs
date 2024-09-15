@@ -5,10 +5,10 @@ Just type make, there aren't any dependencies other than go.
 
 ## Using
 Create a file with your instance and your account api token [**not your password**] seperated by a newline. It should look like this:
-``
+```
 freecumextremist.com
 chodeington
-``
+```
 
 Then simply invoke the notifs binary with the name of your new file as an argument: `./notifs details.txt`
 
